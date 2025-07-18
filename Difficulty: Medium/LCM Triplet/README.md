@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/lcm-triplet1501/1">LCM Triplet</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="user-select: auto;"><p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Given a number <strong style="user-select: auto;">n</strong>. Find the maximum possible LCM that can be obtained by selecting three numbers less than or equal to n.<br style="user-select: auto;"><strong style="user-select: auto;">Note</strong> : LCM stands for Lowest Common Multiple.</span></p>
+<p style="user-select: auto;"><strong style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Examples:</span></strong></p>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input:</strong> n = 9
+<strong style="user-select: auto;">Output: </strong>504
+<strong style="user-select: auto;">Explanation: </strong>504 is the maximum LCM that can be attained by any triplet of numbers less than or equal 9. The triplet which has this LCM is {7, 8, 9}.</span></pre>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input:</strong> n = 7
+<strong style="user-select: auto;">Output: </strong>210
+<strong style="user-select: auto;">Explanation: </strong>210 is the maximum LCM that can be attained by any triplet of numbers less than or equal 7. The triplet which has this LCM is {5, 6, 7}.<br style="user-select: auto;"></span></pre>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Constraints:</strong><br style="user-select: auto;">1 ≤ n ≤ 10<sup style="user-select: auto;">3</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>Algorithms</code>&nbsp;
