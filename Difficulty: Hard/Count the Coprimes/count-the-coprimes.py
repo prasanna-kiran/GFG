@@ -5,7 +5,6 @@ class Solution:
         from itertools import combinations
         from functools import reduce
         from operator import mul
-
         def prime_factors(x: int) -> list[int]:
             ret = []
             k = 2
@@ -18,18 +17,14 @@ class Solution:
             if x > 1:
                 ret.append(x)
             return ret
-
         cnt = defaultdict(int)
         ans = 0
-
         for i, e in enumerate(arr):
             if e == 1:
                 ans += i
                 continue
-
             primes = prime_factors(e)
             k = len(primes)
-
             shared = 0
             for r in range(1, k + 1):
                 for comb in combinations(primes, r):
@@ -38,12 +33,9 @@ class Solution:
                         shared += cnt[prod]
                     else:
                         shared -= cnt[prod]
-
             ans += i - shared
-
             for r in range(1, k + 1):
                 for comb in combinations(primes, r):
                     prod = reduce(mul, comb, 1)
                     cnt[prod] += 1
-
         return ans
