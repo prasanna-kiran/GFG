@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/second-largest3735/1">Second Largest</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="user-select: auto;"><p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Given an array of <strong style="user-select: auto;">positive</strong> integers <strong style="user-select: auto;">arr[]</strong>, return the <strong style="user-select: auto;">second largest</strong> element from the array. </span><span style="font-size: 18px; user-select: auto;">If the second largest element doesn't exist then return <strong style="user-select: auto;">-1.</strong></span></p>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Note: The second largest element should not be equal to the largest element.</span></p>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Examples:</strong></span></p>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input:</strong> arr[] = [12, 35, 1, 10, 34, 1]
+<strong style="user-select: auto;">Output:</strong> 34
+<strong style="user-select: auto;">Explanation: </strong>The largest element of the array is 35 and the second largest element is 34.</span></pre>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input:</strong> arr[] = [10, 5, 10]
+<strong style="user-select: auto;">Output:</strong> 5
+<strong style="user-select: auto;">Explanation: </strong>The largest element of the array is 10 and the second largest element is 5.</span></pre>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input:</strong> arr[] = [10, 10, 10]
+<strong style="user-select: auto;">Output:</strong> -1
+<strong style="user-select: auto;">Explanation: </strong>The largest element of the array is 10 and the second largest element does not exist.</span></pre>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Constraints:</strong><br style="user-select: auto;">2 ≤ arr.size() ≤ 10<sup style="user-select: auto;">5</sup><br style="user-select: auto;">1 ≤ arr[i]<sub style="user-select: auto;">&nbsp;</sub>≤ 10<sup style="user-select: auto;">5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>SAP Labs</code>&nbsp;<code>Rockstand</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Searching</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
